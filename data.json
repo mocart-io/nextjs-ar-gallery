@@ -1,7 +1,7 @@
 {
   "artist": {
     "name": "Mocart Showcase",
-    "avatar": "/images/mocart_logo.jpg",
+    "avatar": "/images/mocart-logo.png",
     "shortBio": "Immersive E-commerce Platforms",
     "socials": [
       { "icon": "FaHome", "url": "https://mocart.io/" },
@@ -24,7 +24,6 @@
     {
       "name": "Lustra Am",
       "glbFile": "https://storage.googleapis.com/ppc-models/models/Lustra_Am_2.glb",
-      "usdzFile": "https://storage.googleapis.com/ppc-models/models/Lustra_Am_2.usdz",
       "attributes": [
 
       ]
@@ -42,6 +41,12 @@
       "attributes": [
 
       ]
+    },
+    {
+      "name": "IPhone 16",
+      "glbFile": "https://storage.googleapis.com/ppc-models/models/iphone16.glb",
+      "usdzFile": "https://storage.googleapis.com/ppc-models/models/iphone16.usdz",
+      "attributes": []
     }
   ]
 }
