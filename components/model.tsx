@@ -72,38 +72,34 @@ const Model = (props: any) => {
   return (
     <Box id="card" w={width} h={height}>
       <model-viewer
-        id="first"
-        src={props.glbFile}
-        ios-src={iosSrc}
-        seamless-poster
-        environment-image="neutral"
-        exposure="1.0"
-        interaction-prompt-threshold="0"
-        shadow-intensity="0"
-        ar
-        autoplay
-        arModes="webxr scene-viewer quick-look"
-        autoRotate
-        camera-controls
-        camera-orbit="0deg 90deg 0deg 8.37364m"
-        alt="3D model"
-        style={{
-          display: "block",
-          width: width,
-          height: height
-        }}
+          id="first"
+          src={props.glbFile}
+          ios-src={iosSrc}
+          seamless-poster
+          environment-image="neutral"
+          exposure="1.0"
+          interaction-prompt-threshold="0"
+          shadow-intensity="0"
+          ar
+          autoplay
+          arModes="webxr scene-viewer quick-look"
+          autoRotate
+          camera-controls
+          // camera-orbit="0deg 90deg 0deg 8.37364m"
+          alt="3D model"
+          style={{
+            display: "block",
+            width: width,
+            height: height
+          }}
       >
         <Box
-          className="poster"
-          slot="poster"
-          // style={{ backgroundImage: "url(/artie.1.webp)" }}
+            className="poster"
+            slot="poster"
+            // style={{ backgroundImage: "url(/artie.1.webp)" }}
         >
-          <img className="pre-prompt" src="/assets/prompt.svg" />
+          <img className="pre-prompt" src="/assets/prompt.svg"/>
         </Box>
-
-        {/* <div className="progress-bar" slot="progress-bar">
-            <div className="update-bar"></div>
-          </div> */}
 
         <Button mt={"19em"} slot="ar-button" className="ar-button">
           View in your space
@@ -112,6 +108,7 @@ const Model = (props: any) => {
         <div className="ar-prompt">
           {/*<img src="/assets/hand.png" />*/}
         </div>
+        <img slot="interaction-prompt" src="/assets/prompt.svg"/>
       </model-viewer>
     </Box>
   );
