@@ -1,7 +1,7 @@
 import { Button, Box, useMediaQuery } from "@chakra-ui/react";
 // import type { ComponentStyleConfig } from "@chakra-ui/theme";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import "@google/model-viewer/lib/model-viewer";
 
@@ -66,7 +66,6 @@ const Model = (props: any) => {
     setWidth(w);
     setHeight(h);
   }, [sm, md, lg, xl]);
-  console.log(width);
   const iosSrc = props.usdzFile ? props.usdzFile : "";
 
   return (
@@ -85,7 +84,7 @@ const Model = (props: any) => {
           arModes="webxr scene-viewer quick-look"
           autoRotate
           camera-controls
-          // camera-orbit="0deg 90deg 0deg 8.37364m"
+          camera-orbit="0deg 90deg 0deg 8.37364m"
           alt="3D model"
           style={{
             display: "block",
