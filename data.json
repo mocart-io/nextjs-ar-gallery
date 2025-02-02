@@ -16,37 +16,45 @@
   },
   "models": [
     {
-      "name": "Gastronom",
-      "glbFile": "https://storage.googleapis.com/ppc-models/models/Gastronom.glb",
+      "name": "Bloom_Am",
+      "glbFile": "https://storage.googleapis.com/ppc-models/models/Bloom_Am.glb",
       "attributes": [
       ]
     },
     {
-      "name": "Lustra Am",
-      "glbFile": "https://storage.googleapis.com/ppc-models/models/Lustra_Am_2.glb",
-      "attributes": [
-
-      ]
-    },
-    {
-      "name": "Steam Iron",
-      "glbFile": "https://storage.googleapis.com/ppc-models/models/SteamIron.glb",
+      "name": "Calcium",
+      "glbFile": "https://storage.googleapis.com/ppc-models/models/Calcium.glb",
       "attributes": [
 
       ]
     },
     {
-      "name": "Jade Egg",
-      "glbFile": "https://storage.googleapis.com/ppc-models/models/Jadeegg_NB.glb",
+      "name": "Cloudbag",
+      "glbFile": "https://storage.googleapis.com/ppc-models/models/Cloudbag_JSF.glb",
       "attributes": [
 
       ]
     },
     {
-      "name": "IPhone 16",
-      "glbFile": "https://storage.googleapis.com/ppc-models/models/iphone16.glb",
-      "usdzFile": "https://storage.googleapis.com/ppc-models/models/iphone16.usdz",
-      "attributes": []
+      "name": "Jaquemeuse",
+      "glbFile": "https://storage.googleapis.com/ppc-models/models/Jaquemeuse.glb",
+      "attributes": [
+
+      ]
+    },
+    {
+      "name": "Challa Tray",
+      "glbFile": "https://storage.googleapis.com/ppc-models/models/Challa_Tray.glb",
+      "attributes": [
+
+      ]
+    },
+    {
+      "name": "Captain America",
+      "glbFile": "https://storage.googleapis.com/ppc-models/models/Captain_America.glb",
+      "attributes": [
+
+      ]
     }
   ]
 }
