@@ -4,11 +4,18 @@
     "avatar": "/images/mocart-logo.png",
     "shortBio": "Immersive E-commerce Platforms",
     "socials": [
-      { "icon": "FaHome", "url": "https://mocart.io/" },
-      { "icon": "FaTwitter", "url": "https://mocart.io/" },
-      { "icon": "FaGithub", "url": "https://mocart.io/" },
-      { "icon": "FaLinkedin", "url": "https://mocart.io/" },
-      { "icon": "FaUniversity", "url": "https://mocart.io/" }
+      {
+        "icon": "FaHome",
+        "url": "https://mocart.io/"
+      },
+      {
+        "icon": "FaInstagram",
+        "url": "https://www.instagram.com/mocart3d/"
+      },
+      {
+        "icon": "FaLinkedin",
+        "url": "https://www.linkedin.com/company/mocartio/"
+      }
     ]
   },
   "project": {
@@ -25,36 +32,28 @@
       "name": "Calcium",
       "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_2.glb",
       "attributes": [
-
       ]
     },
     {
       "name": "Cloudbag",
       "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_3.glb",
       "attributes": [
-
       ]
     },
     {
       "name": "Jaquemeuse",
       "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_4.glb",
-      "attributes": [
-
-      ]
+      "attributes": []
+    }
+  ],
+  "ads": [
+    {
+      "name": "Ad 1",
+      "url": "https://animation-to-3d-hover-431560644987.us-central1.run.app/?id=MichaelKors&productUrl=https://www.michaelkors.com/charlotte-large-saffiano-leather-top-zip-tote-bag/35T0GCFT7L.html?skuId=623729301"
     },
     {
-      "name": "Challa Tray",
-      "glbFile": "https://storage.googleapis.com/ppc-models/models/ChallaTray.glb",
-      "attributes": [
-
-      ]
-    },
-    {
-      "name": "Captain America",
-      "glbFile": "https://storage.googleapis.com/ppc-models/models/Captain_America.glb",
-      "attributes": [
-
-      ]
+      "name": "Ad 2",
+      "url": "https://animation-to-3d-hover-431560644987.us-central1.run.app/?id=SnakeCoin&productUrl=https://www.moneymetals.com/perth-mint-lunar-series-2025-year-of-the-snake-1-oz-9999-silver/1585"
     }
   ]
 }
