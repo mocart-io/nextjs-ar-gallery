@@ -17,6 +17,7 @@ const CardAd: FC<CardAdProps> = ({ ad }) => {
                 rounded="16px"
                 boxShadow="2xl"
                 pos="relative"
+                background={"white"}
                 zIndex={1}
             >
                 <Box rounded="lg" pos="relative" overflow="hidden">

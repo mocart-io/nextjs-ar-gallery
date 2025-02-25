@@ -63,7 +63,7 @@ export default function CardModel(props: any) {
                 p={6}
                 border="1px solid rgba(197, 199, 208, 0.2)"
                 border-radius="16px"
-                // bg={useColorModeValue("white", "gray.800")}
+                bg={useColorModeValue("white", "gray.800")}
                 boxShadow={"2xl"}
                 rounded={"lg"}
                 pos={"relative"}
