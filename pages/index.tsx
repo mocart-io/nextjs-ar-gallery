@@ -91,7 +91,7 @@ const Home: NextPage = (props: any) => {
             src={props.data.artist.avatar}
             // alt={"Author"}
             css={{
-              border: "2px solid white"
+              border: "2px solid white",
             }}
           />
         </Flex>
@@ -107,15 +107,15 @@ const Home: NextPage = (props: any) => {
         </Box>
         <Stack>
           <Flex alignItems={"center"} justify={"center"}>
-            <Heading as="h1" textAlign={"center"} size="4xl">
+            <Heading fontFamily={"Poppins"} color="#3B2CF3" as="h1" textAlign={"center"} size="4xl">
               {props.data.project.name}
             </Heading>
           </Flex>
         </Stack>
 
         <Models data={props.data} />
+        <Footer />
       </Box>
-      <Footer />
     </>
   );
 };

@@ -82,7 +82,7 @@ const Model = (props: any) => {
           ar
           autoplay
           arModes="webxr scene-viewer quick-look"
-          autoRotate
+          auto-rotate
           camera-controls
           camera-orbit="0deg 90deg 0deg 8.37364m"
           alt="3D model"
