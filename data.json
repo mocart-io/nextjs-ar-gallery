@@ -24,26 +24,21 @@
   "models": [
     {
       "name": "Bloom_Am",
-      "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_1.glb",
-      "attributes": [
-      ]
-    },
-    {
-      "name": "Calcium",
       "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_2.glb",
       "attributes": [
       ]
     },
     {
-      "name": "Cloudbag",
+      "name": "Calcium",
       "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_3.glb",
       "attributes": [
       ]
     },
     {
-      "name": "Jaquemeuse",
+      "name": "Cloudbag",
       "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_4.glb",
-      "attributes": []
+      "attributes": [
+      ]
     }
   ],
   "ads": [
