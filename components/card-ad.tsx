@@ -27,6 +27,7 @@ const CardAd: FC<CardAdProps> = ({ ad }) => {
                         height="300px"
                         style={{ border: 0 }}
                         title="Ad content"
+                        allow="camera; gyroscope; accelerometer; xr-spatial-tracking; web-share;"
                     />
                 </Box>
             </Box>
