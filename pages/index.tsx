@@ -121,13 +121,13 @@ const Home: NextPage = (props: any) => {
                 </Box>
                 <Stack>
                     <Flex alignItems={"center"} justify={"center"}>
-                        <Heading fontFamily={"Poppins"} color="#3B2CF3" as="h1" textAlign={"center"} size="4xl">
-                            {props.data.project.name}
-                        </Heading>
+                        {/*<Heading fontFamily={"Poppins"} color="#3B2CF3" as="h1" textAlign={"center"} size="4xl">*/}
+                        {/*    {props.data.project.name}*/}
+                        {/*</Heading>*/}
                     </Flex>
                 </Stack>
 
-                <Models data={props.data}/>
+                {/*<Models data={props.data}/>*/}
 
                 <>
                     <Heading textShadow={"0px 0px 1px #000000"} fontFamily={"Poppins"} color="#3B2CF3" as="h1" textAlign={"center"} size="2xl">
