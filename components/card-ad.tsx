@@ -23,8 +23,8 @@ const CardAd: FC<CardAdProps> = ({ ad }) => {
                 <Box rounded="lg" pos="relative" overflow="hidden">
                     <iframe
                         src={ad.url}
-                        width="250px"
-                        height="100%"
+                        width="100%"
+                        height="300px"
                         style={{ border: 0 }}
                         title="Ad content"
                         allow="camera; gyroscope; accelerometer; xr-spatial-tracking; web-share;"
