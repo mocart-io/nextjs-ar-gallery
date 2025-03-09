@@ -39,6 +39,12 @@
       "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_4.glb",
       "attributes": [
       ]
+    },
+    {
+      "name": "Cloudbag",
+      "glbFile": "https://storage.googleapis.com/ppc-models/models/ar_gallery_model_1.glb",
+      "attributes": [
+      ]
     }
   ],
   "ads": [
