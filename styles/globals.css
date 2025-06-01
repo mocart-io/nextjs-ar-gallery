@@ -116,38 +116,44 @@ model-viewer::part(default-progress-mask) {
   transition: width 0.3s;
 }
 
+/* Replace or add this in your CSS (e.g. globals.css) */
 .ar-button {
-  background-image: url(/assets/ic_view_in_ar_new_googblue_48dp.png);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: 12px 50%;
-  background-color: #fff;
+  background: rgba(123, 123, 123, 0.5);
+  color: white;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 600;
+  width: 186px;
+  border: solid 1px rgba(255, 255, 255, 0.28);
+  border-radius: 3rem;
+  padding: 0.5rem 1rem;
   position: absolute;
   left: 50%;
+  bottom: 2rem;               /* matches the styled-component’s bottom: 2rem */
   transform: translateX(-50%);
-  white-space: nowrap;
-  bottom: 16px;
-  padding: 0px 16px 0px 40px;
-  font-family: Roboto Regular, Helvetica Neue, sans-serif;
-  font-size: 14px;
-  color: #4285f4;
-  height: 36px;
-  line-height: 36px;
-  border-radius: 18px;
-  border: 1px solid #dadce0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: background 0.2s;
+  text-shadow: 0 0px 4px rgba(0, 0, 0, 0.95);
+  box-shadow:
+          0 4px 10px 2px rgba(0, 0, 0, 0.1),
+          inset -4px -4px 12px 4px rgba(255, 255, 255, 0.1);
+  z-index: 10;
 }
 
-.ar-button:active {
-  background-color: #e8eaed;
+.ar-button:hover {
+  background: rgb(255, 255, 255);
 }
 
-.ar-button:focus {
-  outline: none;
+.ar-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
 }
 
-.ar-button:focus-visible {
-  outline: 1px solid #4285f4;
-}
 
 @keyframes circle {
   from {

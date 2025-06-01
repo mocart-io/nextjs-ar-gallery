@@ -4,6 +4,7 @@ import { Button, Box, useMediaQuery } from "@chakra-ui/react";
 import React, { useState, useEffect } from "react";
 
 import "@google/model-viewer/lib/model-viewer";
+import {ARButton} from "./PrettyButton";
 
 declare global {
   namespace JSX {
@@ -100,9 +101,9 @@ const Model = (props: any) => {
           <img className="pre-prompt" src="/assets/prompt.svg"/>
         </Box>
 
-        <Button mt={"19em"} slot="ar-button" className="ar-button">
-          View in your space
-        </Button>
+        <ARButton mt={"19em"} slot="ar-button" className="ar-button">
+
+        </ARButton>
 
         <div className="ar-prompt">
           {/*<img src="/assets/hand.png" />*/}
